@@ -1,0 +1,13 @@
+<h1>Ambientes</h1>
+
+<ul>
+    {% for ambiente in ambientes1 %}
+    <li>{{ ambiente.numero}}  {{ambiente.tipo}} {{ambiente.libre}}</li>
+    {% endfor %}
+</ul>
+<h1>Ambientes Libres</h1>
+<ul>
+    {% for ambienteslibre in ambientelibre1 %}
+    <li>{{ ambienteslibre.tipo}} {{ ambienteslibre.numero}}  {{ambienteslibre.libre}}</li>
+    {% endfor %}
+</ul>
